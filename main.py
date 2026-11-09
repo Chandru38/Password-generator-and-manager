@@ -1,5 +1,5 @@
-# from getpass import getpass
-getpass = input
+from getpass import getpass
+# getpass = input
 
 from generator import generate_password
 from vault import Vault, WrongPasswordError
